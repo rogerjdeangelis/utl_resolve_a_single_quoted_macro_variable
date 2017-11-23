@@ -20,7 +20,7 @@ Resolving a single quoted macro variable
     ```                                                                                                                                                               ```
     ```      PTH='dir "d:/program files/&folder/*.xls" /o:n /b'                                                                                                       ```
     ```                                                                                                                                                               ```
-    ```  Solution (This works and is the most readble and loagical?  quote/unquote)                                                                                   ```
+    ```  Solution (This works and is the most readble and logical?  quote/unquote)                                                                                   ```
     ```  You dont have to learn all those macro quoting functions?                                                                                                    ```
     ```                                                                                                                                                               ```
     ```     %let pth=%sysfunc(quote('dir "d:/program files/&folder/*.xls" /o:n /b'));                                                                                 ```
